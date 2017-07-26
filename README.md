@@ -33,7 +33,7 @@ dig -p 5355 @127.0.0.1 SRV mail.production.east.skydns.local
 ```
 
 ```
-etcdctl set /skydns/local/skydns/west/production/mail     '{"host":"mail-est.example.com","priority":20}'
+etcdctl set /skydns/local/skydns/west/production/mail     '{"host":"mail-west.example.com","priority":20}'
 dig -p 5355 @127.0.0.1 SRV mail.production.west.skydns.local
 ```
 
